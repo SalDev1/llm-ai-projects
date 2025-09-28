@@ -1,0 +1,5 @@
+gradio==5.47.2
+pymupdf==1.26.4
+openai==1.68.2
+anthropic==0.49.0
+python-dotenv==1.0.1
