@@ -1,0 +1,34 @@
+2025-11-15 22:03:26,139 INFO    MainThread:213900 [wandb_setup.py:_flush():80] Current SDK version is 0.23.0
+2025-11-15 22:03:26,139 INFO    MainThread:213900 [wandb_setup.py:_flush():80] Configure stats pid to 213900
+2025-11-15 22:03:26,139 INFO    MainThread:213900 [wandb_setup.py:_flush():80] Loading settings from C:\Users\salma\.config\wandb\settings
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_setup.py:_flush():80] Loading settings from c:\Users\salma\Documents\llm_ai_projects\week6\wandb\settings
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_init.py:setup_run_log_directory():713] Logging user logs to c:\Users\salma\Documents\llm_ai_projects\week6\wandb\run-20251115_220326-ftjob-Bg3MID9R2lVShfyvoZi6JYcM\logs\debug.log
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to c:\Users\salma\Documents\llm_ai_projects\week6\wandb\run-20251115_220326-ftjob-Bg3MID9R2lVShfyvoZi6JYcM\logs\debug-internal.log
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_init.py:monkeypatch_ipython():632] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000016E15256270>
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_init.py:init():840] calling init triggers
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-11-15 22:03:26,140 INFO    MainThread:213900 [wandb_init.py:init():888] starting backend
+2025-11-15 22:03:28,540 INFO    MainThread:213900 [wandb_init.py:init():891] sending inform_init request
+2025-11-15 22:03:28,634 INFO    MainThread:213900 [wandb_init.py:init():899] backend started and connected
+2025-11-15 22:03:28,637 INFO    MainThread:213900 [wandb_run.py:_label_probe_notebook():1323] probe notebook
+2025-11-15 22:03:28,657 INFO    MainThread:213900 [wandb_init.py:init():969] updated telemetry
+2025-11-15 22:03:29,027 INFO    MainThread:213900 [wandb_init.py:init():993] communicating run to backend with 90.0 second timeout
+2025-11-15 22:03:30,037 INFO    MainThread:213900 [wandb_init.py:init():1040] starting run threads in backend
+2025-11-15 22:03:30,465 INFO    MainThread:213900 [wandb_run.py:_console_start():2504] atexit reg
+2025-11-15 22:03:30,465 INFO    MainThread:213900 [wandb_run.py:_redirect():2352] redirect: wrap_raw
+2025-11-15 22:03:30,465 INFO    MainThread:213900 [wandb_run.py:_redirect():2421] Wrapping output streams.
+2025-11-15 22:03:30,466 INFO    MainThread:213900 [wandb_run.py:_redirect():2444] Redirects installed.
+2025-11-15 22:03:30,470 INFO    MainThread:213900 [wandb_init.py:init():1080] run started, returning control to user process
+2025-11-15 22:03:31,245 INFO    MainThread:213900 [wandb_run.py:_config_callback():1385] config_cb None None {'id': 'ftjob-Bg3MID9R2lVShfyvoZi6JYcM', 'created_at': '2025-11-15 21:40:40', 'error': {'code': None, 'message': None, 'param': None}, 'fine_tuned_model': 'ft:gpt-4o-mini-2024-07-18:salman:pricer:CcDIm7Z3', 'finished_at': '2025-11-15 21:50:30', 'hyperparameters': {'batch_size': 1, 'learning_rate_multiplier': 1.8, 'n_epochs': 1}, 'model': 'gpt-4o-mini-2024-07-18', 'object': 'fine_tuning.job', 'organization_id': 'org-16HRO86xPnKe8TTU0DN1mvuI', 'result_files': 'file-49aiAvRpUKZFJzxKD91Ro8', 'seed': 42, 'status': 'succeeded', 'trained_tokens': 39235, 'training_file': 'file-W9hXXKm9NJ42VvzLm3Ww7q', 'validation_file': 'file-TRqEMLiKSNSZ4k1BnDHtPC', 'estimated_finish': None, 'integrations': ["FineTuningJobWandbIntegrationObject(type='wandb', wandb=FineTuningJobWandbIntegration(project='gpt-pricer', entity=None, name=None, tags=None, run_id='ftjob-Bg3MID9R2lVShfyvoZi6JYcM'))"], 'metadata': None, 'method': "Method(type='supervised', dpo=None, reinforcement=None, supervised=SupervisedMethod(hyperparameters=SupervisedHyperparameters(batch_size=1, learning_rate_multiplier=1.8, n_epochs=1)))", 'user_provided_suffix': 'pricer', 'usage_metrics': None, 'shared_with_openai': False, 'eval_id': None}
+2025-11-15 22:03:42,573 INFO    MainThread:213900 [wandb_run.py:_config_callback():1385] config_cb None None {'n_train': 200}
+2025-11-15 22:03:54,730 INFO    MainThread:213900 [wandb_run.py:_config_callback():1385] config_cb None None {'n_valid': 50}
+2025-11-15 22:04:03,937 INFO    MainThread:213900 [wandb_run.py:_finish():2270] finishing run salthecoder11-salcorps/gpt-pricer/ftjob-Bg3MID9R2lVShfyvoZi6JYcM
+2025-11-15 22:04:04,342 INFO    MainThread:213900 [jupyter.py:save_history():435] not saving jupyter history
+2025-11-15 22:04:04,342 INFO    MainThread:213900 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2025-11-15 22:04:04,343 INFO    MainThread:213900 [wandb_init.py:_jupyter_teardown():617] cleaning up jupyter logic
+2025-11-15 22:04:04,343 INFO    MainThread:213900 [wandb_run.py:_atexit_cleanup():2469] got exitcode: 0
+2025-11-15 22:04:04,343 INFO    MainThread:213900 [wandb_run.py:_restore():2451] restore
+2025-11-15 22:04:04,343 INFO    MainThread:213900 [wandb_run.py:_restore():2457] restore done
+2025-11-15 22:04:07,596 INFO    MainThread:213900 [wandb_run.py:_footer_sync_info():3853] logging synced files
